@@ -1,0 +1,38 @@
+/* 
+Seletores = recursos do css para selecionar conjunto de elementos em uma página HTML
+
+   -seletor de elemento (nome da tag)
+   -id (#meuid)
+   -classe (.minhaClasse)
+*/
+
+/* Seletor de Elemento */
+h1{ /* Qualquer h1 será estilizado */
+   color: orange;
+   font-style: italic;
+}
+
+/* Seletor por ID */
+#exemplo{
+   color: red;
+   font-weight: bold;
+   font-family: monospace;
+}
+#body{
+   background-color: black;
+}
+
+/* Seletor de Classe */
+.classeSeletora{ /* Aplicamos classes em múltiplos elementos */
+   color: white;
+   text-align: center;
+}
+
+/* Combinadores de descendente */
+.secao1{
+   background-color: orange;
+}
+/* Selecione qualquer imagem da classe "secao1" */
+.secao1 img{
+   width: 80%;
+}
