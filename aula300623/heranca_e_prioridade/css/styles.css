@@ -1,0 +1,29 @@
+body{
+    /* Código para a fonte funcionar na família */
+    /* FallBack = caso a fonte falhe, ele aplica uma padrão do sistema */
+    font-family: "Bacasime Antique", serif;
+    background-color: orange; /* Propriedade não herdada */
+}
+
+.codigo{
+    color: yellow;
+    font-family: monospace;
+}
+
+/* Caso fique sem virgula, seria uma seleção de herança, h3 ques esteja dentro de um h1 e um h2 */
+h1, h2, h3{
+    background-color: brown;
+    text-decoration: line-through;
+}
+.custom_h1{
+    background-color: blue;
+}
+#meu_h1{
+    background-color: green;
+}
+
+/* 
+    Prioridade = CSS define quais prioridades serão aplicadas ao sobrescrever
+    inline > tagstyle > arquivo externo
+    atributo style > id > class > seletor de tipo
+*/
