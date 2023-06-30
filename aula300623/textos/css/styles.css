@@ -1,0 +1,38 @@
+/* 
+    REM - medida relativa ao elemento HTML
+    REM é melhor para texto, cada REM é igual a 16 px (pode muder de navegador para navegador)
+*/
+
+.container h1,
+.container h2,
+.container h3{
+    /* Left, Center, Right, Justify */
+    text-align: center;
+    /* italique, oblique */
+    font-style: italic;
+    /* 100, 200, ..., 900 */
+    font-weight: 300;
+    color: purple;
+}
+
+.container h1{
+    font-size: 3rem;
+}
+
+.container h2{
+    font-size: 2.5rem;
+}
+
+.container h3{
+    font-size: 2rem;
+}
+
+.container p{
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+/* Pode mudar o tamanho do REM */
+html{
+    font-size: 8px;
+}
