@@ -1,0 +1,67 @@
+.box1{
+   background-color: blue;
+   text-align: justify;
+   padding: 20px;
+   margin: 20px;
+}
+
+.box2{
+   background-color: greenyellow;
+   text-align: justify;
+
+   /*TOP RIGHT BOTTOM LEFT*/
+   padding: 10px 15px 20px 10px;
+
+   /*Sentido Horário*/
+   /*margin: 30px, 10px, 10px, 10px;*/
+
+   /*TOP/BOTTOM RIGHT/LEFT*/
+   margin: 25px 30px;
+}
+
+.box3{
+   background-color: brown;
+   text-align: justify;
+
+   /*Expessura / Estilo / Cor*/
+   border: 5px solid black;
+   padding-left: 45px;
+
+   /* 
+      Comando inteiro
+      border-width: 5px;
+      border-style: solid;
+      border-color: black;
+   */
+
+   /*
+      Estilos
+      - solid
+      - dashed
+      - dotted
+      - double
+      - groove
+      PESQUISAR PARA MAIS
+   */
+}
+
+.box4{
+   background-color: tomato;
+   margin: 10px;
+   padding: 30px;
+   border: 5px solid yellow;
+   width: 200px;
+   height: 600px;
+   /* Indica para o CSS levar em conta nos 200px a borda e o padding */
+   box-sizing: border-box;
+}
+
+/* COMO APLICAR BOX-SIZING: BORDER BOX EM TODOS OS ELEMENTOS DA PÁGINA */
+/* * É O SELETOR UNIVERSAL, SELECIONA TODOS OS ELEMENTOS DA PÁGINA */
+*{
+   box-sizing: border-box;
+
+   /* Gruda todas as box na lateral */
+   margin: 0;
+   padding: 0;
+}

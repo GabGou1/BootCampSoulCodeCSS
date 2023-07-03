@@ -1,0 +1,36 @@
+*{
+   box-sizing: border-box;
+}
+
+.box{
+   padding: 20px;
+   border: 3px solid black;
+}
+
+.inline{
+   display: inline;
+}
+
+.none{
+   display: none;
+}
+
+/* Igual ao inline, mas pode ser alterado */
+.inlineBlock{
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+}
+
+/* Para centralizar no centro da tela */
+h1{
+   display: block;
+   text-align: center;
+}
+
+/*
+   Display
+   display: block -> ocupa toda a largura, e quebra a linha no final
+   display: inline -> ocupa somente o necessário, e não quebra a linha
+   none
+*/
