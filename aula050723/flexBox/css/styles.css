@@ -1,0 +1,82 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.container-1{
+   background-color: brown;
+   padding: 8px;
+   height: 600px;
+
+   display: flex; /* Ativa o Flex Box */
+   /* Caso você coloque o flex direction em row, ele ficará horizontal, em column, ficará vertical (o padrão é row) */
+   flex-direction: row;
+   /* nowrap, wrap = indica, só pode quebrar linha se não estiver espaço */
+   flex-wrap: wrap;
+   /*
+      space-between -> coloca espaços com relação ao espaço total entre os elementos com 
+      space-around -> ajusta os elementos de acordo com o eixo main 
+      start -> esquerda
+      en -> direita
+      center -> meio
+   */
+   justify-content: space-around;
+
+   /* Atalho para flex direction e wrap */
+   /* flex-flow: row wrap; */
+
+   /* stretch, flex-start, flex-end, center */
+   align-items: center;
+   /* Mesmos valores, só serve se tiver linhas */
+   /* align-content: space-between; */
+
+
+}
+
+.item-1{
+   background-color: orange;
+}
+
+.item-2{
+   background-color: greenyellow;
+}
+
+.item-3{
+   background-color: gold;
+   align-self: flex-start; /* Alinhar no eixo cross individualmente */
+}
+
+.item-4{
+   background-color: hotpink;
+}
+
+.item-1, .item-2, .item-3, .item-4{
+   width: 200px;
+   padding: 8px;
+}
+
+.container-2{
+   background-color: chocolate;
+   height: 250px;
+   display: flex;
+}
+
+.coluna-1{
+   background-color: tan;
+   width: 200px;
+   /* 1/4 */
+   flex: 1;
+}
+
+.coluna-2{
+   background-color: aqua;
+   /* 2/4 */
+   flex: 2; /* Ocupa uma porção do espaço disponível */
+}
+
+.coluna-3{
+   background-color: tomato;
+   /* 1/4 */
+   flex: 1;
+}
