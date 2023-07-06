@@ -1,0 +1,27 @@
+/*
+    Media Queries = regras especiais (pode ser aplicada ou não)
+
+    @media condição {
+        Estilos a serem aplicados caso a condição seja verdadeira
+    }
+*/
+
+body{
+    background-color: teal;
+}
+
+/* screen = dispositivo de tela (mobile, tablet, desktop) */
+@media screen and (max-width: 599px){
+    /* Se largura é menor ou igual a 599px*/
+    body{
+        background-color: red;
+        font-family: monospace;
+    }
+}
+
+@media screen and (min-width: 600px){
+    /* Se a largura é maior ou igual à 600px */
+    body{
+        background-color: olive;
+    }
+}

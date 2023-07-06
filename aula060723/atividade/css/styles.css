@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 599px){
+    body{
+        background-color: red;
+    }
+    .artig{
+        flex-direction: column;
+        padding: 0;
+    }
+    .artig img{
+        width: 100%;
+    }
+    .artig p{
+        padding: 16px;
+    }
+}
+@media screen and (min-width: 600px){
+    /* Se a largura é maior ou igual à 600px */
+    body{
+        background-color: purple;
+    }
+}
+
+.sect{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artig{
+    width: 600px;
+    display: flex;
+    padding: 16px;
+    margin: 16px;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(84, 0, 84);
+    gap: 8px;
+}
+
+.artig img{
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+}
